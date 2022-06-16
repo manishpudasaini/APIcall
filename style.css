@@ -1,0 +1,31 @@
+body {
+  display: flex;
+  justify-content: center;
+  background-color: beige;
+}
+
+#container {
+  display: flex;
+  justify-content: space-evenly;
+  gap: 6em;
+}
+.users {
+  display: flex;
+  flex-direction: column;  
+  justify-content: center;
+  align-items: center; 
+  gap: 1em;
+  background-color: blue;
+ height: fit-content; 
+  padding: 2em;
+  color: azure;
+  border-radius: 1em;
+}
+.users img {
+  border-radius: 50%;
+}
+.users img:hover {
+  transform: scale(1.1);
+  cursor: pointer;
+  transition: ease-in 0.3s;
+}
